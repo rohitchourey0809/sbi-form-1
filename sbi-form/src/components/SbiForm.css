@@ -10,13 +10,25 @@ input[type=email],input[type=tel],input[type=text] {
   
   input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    /* background-color: ; */
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
+    
+  }
+
+  #ButtonActive{
+    background-color: black;
+    color:white;
+   
+  }
+  #ButtonNonActivate{
+    background-color: #45a049;
+    color:gold
   }
 
   input[type=submit]:hover {
@@ -37,9 +49,34 @@ input[type=email],input[type=tel],input[type=text] {
 
   label{
     display:flex;
-    flex:start
+    flex:start;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
   }
 
   p{
     color:red
   }
+
+  .sbidiv{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  span{
+    font-size:12px;
+    padding:3px;
+    color:red;
+    display:none
+  }
+
+  input:invalid[focused = "true"]{
+   border : 1px solid red;
+
+  }
+
+  input:invalid[focused = "true"]~span{
+   display:block;
+   font-size: larger;
+  }
+  

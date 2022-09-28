@@ -1,21 +1,21 @@
 {
   "Sbiform": [
     {
-      "Username": "",
-      "Email": "",
-      "Mobile": "",
+      "Username": "rohit chourey",
+      "Email": "rohit12@gmail.com",
+      "Mobile": "9074052483",
       "id": 1
     },
     {
       "Username": "rohit chourey",
-      "Email": "",
-      "Mobile": "",
+      "Email": "rohit12@gmail.com",
+      "Mobile": "9074052483",
       "id": 2
     },
     {
       "Username": "rohit chourey",
       "Email": "rohit12@gmail.com",
-      "Mobile": "",
+      "Mobile": "9074052483",
       "id": 3
     },
     {
@@ -25,40 +25,28 @@
       "id": 4
     },
     {
-      "Username": "",
-      "Email": "",
-      "Mobile": "",
+      "Username": "rohit chourey",
+      "Email": "rohit@gmail.com",
+      "Mobile": "9074052483",
       "id": 5
     },
     {
-      "Username": "",
-      "Email": "",
-      "Mobile": "",
+      "Username": "rohit chourey",
+      "Email": "rohit12@gmail.com",
+      "Mobile": "9074052483",
       "id": 6
     },
     {
-      "Username": "rohit",
-      "Email": "",
-      "Mobile": "",
+      "Username": "rohit chourey",
+      "Email": "rohit12@gmail.com",
+      "Mobile": "9074052483",
       "id": 7
     },
     {
-      "Username": "rohit",
+      "Username": "rohit chourey",
       "Email": "rohit12@gmail.com",
-      "Mobile": "",
+      "Mobile": "9074052483",
       "id": 8
-    },
-    {
-      "Username": "rohit",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
-      "id": 9
-    },
-    {
-      "Username": "rohit",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
-      "id": 10
     }
   ]
 }
