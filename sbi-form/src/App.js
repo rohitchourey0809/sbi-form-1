@@ -1,11 +1,13 @@
 
 import './App.css';
-import SbiForm from './components/SbiForm';
+import ReactFormik from './components/ReactFormik/ReactFormik';
+// import SbiForm from './components/SbiForm';
 
 function App() {
   return (
     <div>
-     <SbiForm/>
+     {/* <SbiForm/> */}
+     <ReactFormik/>
     </div>
   );
 }
