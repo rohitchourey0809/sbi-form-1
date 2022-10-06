@@ -1,164 +1,81 @@
 {
-  "Sbiform": [
+  "SbiRegistform": [
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "name": "ROHIT CHOUREY",
+      "email": "rohit1995chourey@gmail.com",
+      "mobile": "9074052483",
+      "termsAndConditions": true,
       "id": 1
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "name": "vikas CHOUREY",
+      "email": "rohit1995chourey@gmail.com",
+      "mobile": "9074052483",
+      "termsAndConditions": true,
       "id": 2
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "name": "ROHITaetetCHOUREY",
+      "email": "rohit1995chourey@gmail.com",
+      "mobile": "9074052483",
+      "termsAndConditions": true,
       "id": 3
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "name": "ROHIT CHOUREY",
+      "email": "rohit1995chourey@gmail.com",
+      "mobile": "9074052483",
+      "termsAndConditions": true,
       "id": 4
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit@gmail.com",
-      "Mobile": "9074052483",
+      "name": "ROHIT CHOUREY",
+      "email": "rohit1995chourey@gmail.com",
+      "mobile": "9074052483",
+      "termsAndConditions": true,
       "id": 5
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "username": "rohiourey",
+      "age": "34",
+      "email": "rohit1995chourey@gmail.com",
+      "phone": "6785757857",
       "id": 6
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "username": "roourey",
+      "age": "34",
+      "email": "rohit1995chourey@gmail.com",
+      "phone": "0974052483",
       "id": 7
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "username": "roourey",
+      "age": "34",
+      "email": "rohit1995chourey@gmail.com",
+      "phone": "0974052483",
       "id": 8
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "username": "02MG201FT011",
+      "age": "34",
+      "email": "rohit1995chourey@gmail.com",
+      "phone": "6785757857",
       "id": 9
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "username": "rohiurey",
+      "age": "34",
+      "email": "rohit1995chourey@gmail.com",
+      "phone": "9074053534",
       "id": 10
     },
     {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
+      "username": "rohit",
+      "age": "34",
+      "email": "rohit1995chourey@gmail.com",
+      "phone": "9074053534",
       "id": 11
-    },
-    {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
-      "id": 12
-    },
-    {
-      "Username": "rohit chourey",
-      "Email": "rohit12@gmail.com",
-      "Mobile": "9074052483",
-      "id": 13
-    },
-    {
-      "name": "rohit",
-      "email": "rohit@1995chouregmail.com",
-      "mobile": "5454554554",
-      "termsAndConditions": true,
-      "id": 14
-    },
-    {
-      "name": "roghit",
-      "email": "kjfkj@gmail.com",
-      "mobile": "6456655446",
-      "termsAndConditions": true,
-      "id": 15
-    },
-    {
-      "name": "rohit",
-      "email": "erergerger@gmail.com",
-      "mobile": "9074052483",
-      "termsAndConditions": true,
-      "id": 16
-    },
-    {
-      "name": "rohit",
-      "email": "rohit@choureygmai.com",
-      "mobile": "9074523522",
-      "termsAndConditions": true,
-      "id": 17
-    },
-    {
-      "name": "ab",
-      "email": "rohit@gmail.com",
-      "mobile": "6565656565",
-      "termsAndConditions": true,
-      "id": 18
-    },
-    {
-      "name": "rohit",
-      "email": "rohirt@gmail.com",
-      "mobile": "9074052482",
-      "termsAndConditions": true,
-      "id": 19
-    },
-    {
-      "name": "ROHIT CHOUREY",
-      "email": "rohit1995chourey@gmail.com",
-      "mobile": "9074052483",
-      "termsAndConditions": true,
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
-    },
-    {
-      "name": "ROHIT CHOUREY",
-      "email": "rohit1995chourey@gmail.com",
-      "mobile": "9074052483",
-      "termsAndConditions": true,
-      "id": 23
-    },
-    {
-      "name": "ROHIT CHOUREY",
-      "email": "rohit1995chourey@gmail.com",
-      "mobile": "9074052483",
-      "termsAndConditions": true,
-      "id": 24
-    },
-    {
-      "id": 25
-    },
-    {
-      "id": 26
-    },
-    {
-      "name": "sumi@123gmail.com",
-      "email": "sumit1995chourey@gmail.com",
-      "mobile": "4342352353",
-      "termsAndConditions": true,
-      "id": 27
     }
   ]
 }

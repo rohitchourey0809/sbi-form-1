@@ -2,56 +2,59 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import BootstrapTable from "react-bootstrap-table-next";
 import paginationFactory from "react-bootstrap-table2-paginator";
-import cellEditFactory,{Type} from "react-bootstrap-table2-editor";
-import filterFactory, { textFilter } from 'react-bootstrap-table2-filter';
+import cellEditFactory, { Type } from "react-bootstrap-table2-editor";
+import filterFactory, { textFilter } from "react-bootstrap-table2-filter";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const AllUser = () => {
   const [data, setData] = useState([]);
+
+
+  const getData = () => {
+    axios.get("http://localhost:8080/SbiRegistform").then((res) => {
+     console.log("getdata", res.data);
+      setData(res.data);
+      
+    });
+  };
+
+
+
   useEffect(() => {
     getData();
   }, []);
 
-  const getData = () => {
-    axios("http://localhost:8080/Sbiform").then((res) => {
-      console.log(res.data);
-      setData(res.data);
-    });
-  };
+  console.log("data", data);
 
   const emailFormatter = (data, row) => {
     return <span>{data}</span>;
   };
 
   //CheckBox
- 
-
 
   const columns = [
     {
-      dataField: "Email",
+      dataField: "email",
       text: "EMAIL",
       sort: true,
       editable: false,
-     
     },
     {
-      dataField: "Username",
+      dataField: "name",
       text: "USERNAME",
       sort: true,
-     
+
       filter: textFilter(),
       editable: false,
     },
     {
-        dataField: "Mobile",
-        text: "MOBILE",
-        sort: true,
-        
-        filter: textFilter(),
-        editable: false,
-      },
-  
+      dataField: "mobile",
+      text: "MOBILE",
+      sort: true,
+
+      filter: textFilter(),
+      editable: false,
+    },
   ];
   return (
     <div>
@@ -60,13 +63,12 @@ const AllUser = () => {
         keyField="id"
         data={data}
         columns={columns}
-     //   pagination={paginationFactory()}
+        pagination={paginationFactory()}
         cellEdit={cellEditFactory({ mode: "click", blurToSave: true })}
         striped
         hover
         condensed
-        
-        filter={ filterFactory() }
+        filter={filterFactory()}
       />
     </div>
   );

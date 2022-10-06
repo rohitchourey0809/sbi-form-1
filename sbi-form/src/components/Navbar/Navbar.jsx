@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <div>
       <div className='navbar'>
-      <Link to="/encryptform">Sbi-Encypt-form</Link>
-        <Link to="/sbiform">Sbi-form</Link>
+      {/* <Link to="/encryptform">Sbi-Encypt-form</Link>
+        <Link to="/sbiform">Sbi-form</Link> */}
         <Link to="/reactsbiform">React-Sbi-form</Link>
         <Link to="/alluser">All-User</Link>
       </div>
