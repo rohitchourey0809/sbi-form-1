@@ -1,9 +1,9 @@
 import { Field, Form, Formik } from "formik";
-import 'react-phone-number-input/style.css';
-import PhoneInput from 'react-phone-number-input';
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
 import axios from "axios";
 import "./BasicFormik.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { SignupSchema } from "./schemas";
 import ReactPhone from "../ReactPhone/ReactPhone";
 
@@ -15,7 +15,11 @@ const initialValues = {
 };
 
 const ReactFormik = () => {
-  const [phone, setPhone] = useState()
+  // const [phone, setPhone] = useState()
+
+ 
+
+
   const SbiRegdata = (payload) => {
     axios
       .post("http://localhost:8080/Sbiform", payload)
@@ -26,6 +30,9 @@ const ReactFormik = () => {
         return error;
       });
   };
+  // useEffect(()=>{
+    // SbiRegdata()
+  // },[SbiRegdata])
 
   // console.log("Formik", values);
   return (
@@ -64,9 +71,10 @@ const ReactFormik = () => {
                 onChange={handleChange}
                 onBlur={handleBlur}
               />
-             <p className="formerror"> {errors.name && touched.name ? (
-                <p >{errors.name}</p>
-              ) : null}</p>
+              <p className="formerror">
+                {" "}
+                {errors.name && touched.name ? <p>{errors.name}</p> : null}
+              </p>
             </div>
             <div className="input-block">
               <label htmlFor="email" className="input-label">
@@ -88,7 +96,7 @@ const ReactFormik = () => {
                 ) : null}
               </p>
             </div>
-            {/* <div className="input-block">
+            <div className="input-block">
               <label htmlFor="mobile" className="input-label">
                 Mobile
               </label>
@@ -103,18 +111,16 @@ const ReactFormik = () => {
                 onChange={handleChange}
                 onBlur={handleBlur}
               />
-           <p>   {errors.mobile && touched.mobile ? (
-                <p className="form-error">{errors.mobile}</p>
-              ) : null}</p>
-            </div> */}
-             <div>
-              
-             {/* <PhoneInput
-        placeholder="Enter phone number"
-        Phone={phone}
-        onChange={setPhone}
-        /> */}
-              <ReactPhone   type="tel"
+              <p>
+                {" "}
+                {errors.mobile && touched.mobile ? (
+                  <p className="form-error">{errors.mobile}</p>
+                ) : null}
+              </p>
+            </div>
+            {/* <div>
+              <ReactPhone
+                type="tel"
                 maxLength={10}
                 autoComplete="off"
                 name="mobile"
@@ -122,13 +128,17 @@ const ReactFormik = () => {
                 placeholder="Mobile"
                 value={values.mobile}
                 onChange={handleChange}
-                onBlur={handleBlur}/></div>
-                <p>   {errors.mobile && touched.mobile ? (
+                onBlur={handleBlur}
+              />
+            </div> */}
+            <p>
+              {" "}
+              {errors.mobile && touched.mobile ? (
                 <p className="form-error">{errors.mobile}</p>
-              ) : null}</p>
+              ) : null}
+            </p>
             <div>
               <label>
-               
                 <Field type="checkbox" name="termsAndConditions" />
                 Terms and conditions
               </label>
