@@ -16,7 +16,7 @@ function App() {
       <div>
         <Routes>
           {/* <Route path="/encryptform" element={<SignUpForm />}></Route> */}
-          {/* <Route path="/sbiform" element={<SbiForm />}></Route> */}
+          <Route path="/sbiform" element={<SbiForm />}></Route>
           
           <Route path="/alluser" element={<AllUser />}></Route>
           <Route path="/reactsbiform" element={<ReactFormik />}></Route>

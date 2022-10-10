@@ -11,7 +11,7 @@ const AllUser = () => {
 
 
   const getData = () => {
-    axios.get("http://localhost:8080/SbiRegistform").then((res) => {
+    axios.get("http://localhost:8080/Sbiformdata1").then((res) => {
      console.log("getdata", res.data);
       setData(res.data);
       

@@ -1,5 +1,5 @@
 {
-  "SbiRegistform": [
+  "Sbiformdata1": [
     {
       "name": "ROHIT CHOUREY",
       "email": "rohit1995chourey@gmail.com",
@@ -8,74 +8,18 @@
       "id": 1
     },
     {
-      "name": "vikas CHOUREY",
+      "name": "ROHIT CHOUREY",
       "email": "rohit1995chourey@gmail.com",
       "mobile": "9074052483",
       "termsAndConditions": true,
       "id": 2
     },
     {
-      "name": "ROHITaetetCHOUREY",
+      "name": "ROHIT CHOUREY",
       "email": "rohit1995chourey@gmail.com",
       "mobile": "9074052483",
       "termsAndConditions": true,
       "id": 3
-    },
-    {
-      "name": "ROHIT CHOUREY",
-      "email": "rohit1995chourey@gmail.com",
-      "mobile": "9074052483",
-      "termsAndConditions": true,
-      "id": 4
-    },
-    {
-      "name": "ROHIT CHOUREY",
-      "email": "rohit1995chourey@gmail.com",
-      "mobile": "9074052483",
-      "termsAndConditions": true,
-      "id": 5
-    },
-    {
-      "username": "rohiourey",
-      "age": "34",
-      "email": "rohit1995chourey@gmail.com",
-      "phone": "6785757857",
-      "id": 6
-    },
-    {
-      "username": "roourey",
-      "age": "34",
-      "email": "rohit1995chourey@gmail.com",
-      "phone": "0974052483",
-      "id": 7
-    },
-    {
-      "username": "roourey",
-      "age": "34",
-      "email": "rohit1995chourey@gmail.com",
-      "phone": "0974052483",
-      "id": 8
-    },
-    {
-      "username": "02MG201FT011",
-      "age": "34",
-      "email": "rohit1995chourey@gmail.com",
-      "phone": "6785757857",
-      "id": 9
-    },
-    {
-      "username": "rohiurey",
-      "age": "34",
-      "email": "rohit1995chourey@gmail.com",
-      "phone": "9074053534",
-      "id": 10
-    },
-    {
-      "username": "rohit",
-      "age": "34",
-      "email": "rohit1995chourey@gmail.com",
-      "phone": "9074053534",
-      "id": 11
     }
   ]
 }

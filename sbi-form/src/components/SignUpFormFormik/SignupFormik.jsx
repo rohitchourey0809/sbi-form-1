@@ -7,7 +7,7 @@ import axios from "axios";
 const SignupFormik = () => {
     const SbiRegdata = (payload) => {
         axios
-          .post("http://localhost:8080/SbiRegistform", payload)
+          .post("http://localhost:8080/Sbiformdata", payload)
           .then((response) => {
             console.log("responsepost", response.data);
           })
@@ -32,7 +32,7 @@ const SignupFormik = () => {
       .matches(
         /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
         "Phone number is not valid"
-      ).max(10).required("Required"),
+      ).max(10).min(10).required("Required"),
   });
   return (
     <div className="container pt-5">

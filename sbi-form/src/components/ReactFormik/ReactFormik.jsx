@@ -22,7 +22,7 @@ const ReactFormik = () => {
 
   const SbiRegdata = (payload) => {
     axios
-      .post("http://localhost:8080/SbiRegistform", payload)
+      .post("http://localhost:8080/Sbiformdata1", payload)
       .then((response) => {
         console.log("responsepost", response.data);
       })
@@ -119,10 +119,10 @@ const ReactFormik = () => {
                 ) : null}
             
             </div>
-            <div><PhoneInput
+            {/* <div><PhoneInput
   placeholder="Enter phone number"
   value={value}
-  onChange={setValue}/></div>
+  onChange={setValue}/></div> */}
             {/* <div>
               <ReactPhone
                 type="tel"
